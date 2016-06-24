@@ -3,6 +3,7 @@ from setuptools import setup
 setup(name='pytest-mozwebqa',
       version='2.0',
       description='Mozilla WebQA plugin for py.test.',
+      long_description=open('README.rst').read(),
       author='Dave Hunt',
       author_email='dhunt@mozilla.com',
       url='https://github.com/mozilla/pytest-mozwebqa',
@@ -17,7 +18,7 @@ setup(name='pytest-mozwebqa',
       keywords='py.test pytest selenium saucelabs browserstack mozwebqa webqa '
                'qa mozilla',
       classifiers=[
-          'Development Status :: 5 - Production/Stable',
+          'Development Status :: 7 - Inactive',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)',
           'Operating System :: POSIX',
